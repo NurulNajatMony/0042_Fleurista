@@ -7,9 +7,15 @@
 /.idea/workspace.xml
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
+/.idea/.name
 .DS_Store
 /build
 /captures
 .externalNativeBuild
 .cxx
 local.properties
+node_modules/
+backend/node_modules/
+.env
+backend/.env
+~$*.docx
