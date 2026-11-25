@@ -1,8 +1,8 @@
 USE fleurista_db;
 
 INSERT INTO users (name, email, password_hash, phone, role) VALUES
-('Admin Toko Fleurista', 'admin@fleurista.id', '$2b$10$CwTycUXWue0Thq9StjUM0uJ8p4K1.a8h7B3V.mY1a9G8l1X9E3p6W', '081234567890', 'admin'),
-('Nurul Najat Mony', 'pelanggan@fleurista.id', '$2b$10$CwTycUXWue0Thq9StjUM0uJ8p4K1.a8h7B3V.mY1a9G8l1X9E3p6W', '082198765432', 'customer');
+('Admin Toko Fleurista', 'admin@fleurista.id', '$2a$10$0E/0B/833MzL4C0w9q.H.uFORXphrOmNpyGZnE.XMtwdzB2Kb/Tp.', '081234567890', 'admin'),
+('Nurul Najat Mony', 'pelanggan@fleurista.id', '$2a$10$0E/0B/833MzL4C0w9q.H.uFORXphrOmNpyGZnE.XMtwdzB2Kb/Tp.', '082198765432', 'customer');
 
 INSERT INTO categories (name, description) VALUES
 ('Buket Bunga Segar', 'Buket mawar, lily, dan baby breath segar untuk hadiah spesial.'),
